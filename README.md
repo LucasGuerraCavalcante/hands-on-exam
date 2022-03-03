@@ -1,3 +1,3 @@
 ### Run
 
-		node fileName.ts
+		node fileName.js
