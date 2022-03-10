@@ -7,7 +7,7 @@ const printFibonacci = (givenNumber) => {
 
 	console.log(v1);
 
-	for (let i = 1; i < givenNumber; i++) {
+	for (i = 1; i < givenNumber; i++) {
     console.log(v1);
 	
     valorAtual = v1 + v2; // soma dos dois anteriores

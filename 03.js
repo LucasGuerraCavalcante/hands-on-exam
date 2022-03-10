@@ -28,8 +28,8 @@ let consultants = [
 
 const groupConsultantsByCompany = (consultants) => {
 	return consultants
-		.reduce((consultant, obj) => {
-			return Object.assign(consultant, { [obj['company']]:( consultant[obj['company']] || [] ).concat(obj)})
+		.reduce((obj, consultant) => {
+			return Object.assign(obj, { [consultant['company']]:( obj[consultant['company']] || [] ).concat(consultant)})
 		}, {})
 }
 
